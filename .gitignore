@@ -1,0 +1,40 @@
+# --- OS & IDE (Rác hệ thống và công cụ code) ---
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+*.sublime-workspace
+*.log
+
+# --- BACKEND (Java & Maven) ---
+# Thư mục build ra file chạy
+target/
+# Các file class biên dịch
+*.class
+# File đóng gói
+*.jar
+*.war
+# Cấu hình IDE Eclipse/IntelliJ sinh ra
+.classpath
+.project
+.settings/
+.sts4-cache/
+
+# --- FRONTEND (NodeJS & Vue) ---
+# Thư viện tải về (Cái này NẶNG NHẤT, tuyệt đối phải ignore)
+node_modules/
+# Thư mục build ra web tĩnh
+dist/
+# File log lỗi
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# File môi trường cục bộ (chứa mật khẩu/key riêng)
+.env.local
+.env.*.local
+
+# --- DỮ LIỆU CÁ NHÂN (Tránh lộ info) ---
+# Các file bí mật nếu sau này dùng
+secrets.properties
