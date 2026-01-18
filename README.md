@@ -4,17 +4,15 @@ bash
 echo-fishing-be/
 ├── src/
 │   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── echommo/
-│   │   │           └── fishing/
-│   │   │               ├── config/          <-- Cấu hình (WebSocket, Security, CORS)
-│   │   │               ├── controller/      <-- API nhận lệnh từ Frontend (VD: Di chuyển, Câu cá)
-│   │   │               ├── entity/          <-- Khuôn mẫu dữ liệu (Map, Fish, Player)
-│   │   │               ├── repository/      <-- Giao tiếp với Database PostgreSQL
-│   │   │               ├── service/         <-- Xử lý Logic game (Tính toán tỷ lệ rớt cá, check hack)
-│   │   │               ├── model/           <-- Các object phụ (DTO - Data Transfer Object)
-│   │   │               └── FishingApplication.java  <-- File chạy chính
+│   │   ├── java/com/echommo/
+│   │   │   └── fishing/
+│   │   │   ├── config/          <-- Cấu hình (WebSocket, Security, CORS)
+│   │   │   ├── controller/      <-- API nhận lệnh từ Frontend (VD: Di chuyển, Câu cá)
+│   │   │   ├── entity/          <-- Khuôn mẫu dữ liệu (Map, Fish, Player)
+│   │   │   ├── repository/      <-- Giao tiếp với Database PostgreSQL
+│   │   │   ├── service/         <-- Xử lý Logic game (Tính toán tỷ lệ rớt cá, check hack)
+│   │   │   ├── model/           <-- Các object phụ (DTO - Data Transfer Object)
+│   │   │   └── FishingApplication.java  <-- File chạy chính
 │   │   ├── resources/
 │   │   │   ├── static/          <-- Chứa file tĩnh (nếu cần)
 │   │   │   ├── application.properties  <-- File cấu hình Server & Database
